@@ -1,0 +1,50 @@
+						Promises: Asynchronous JavaScript
+
+🔧 Creating a Promise :
+	let promise = new Promise(function(resolve, reject) {
+	// async operation
+		if (success) {
+   			 resolve("Success!");
+  		} else {
+  		  reject("Error!");
+  		}
+		});
+
+🔄 Consuming a Promise
+		promise
+  			.then(result => {
+  			  // handle success
+ 			 })
+  			.catch(error => {
+  			  // handle error
+  			})
+  			.finally(() => {
+  			  // always runs
+  			});
+
+🔁 Chaining Promises
+	doSomething()
+  		.then(result => doNext(result))
+  		.then(nextResult => doFinal(nextResult))
+  		.catch(error => handleError(error));
+	=>
+	let fetchData = new Promise((resolve, reject) => {
+  		let data = true;
+  		if (data) resolve("Data loaded");
+  		else reject("Failed to load");
+		});
+	fetchData
+  		.then(msg => console.log(msg))
+  		.catch(err => console.error(err));
+
+🧪 Async Function : 
+	async function getUser() {
+  		try {
+  		  let response = await fetch("https://api.example.com/user");
+		  let data = await response.json();
+ 		  console.log(data);
+  		} catch (error) {
+   		 console.error("Error:", error);
+  		}
+	}
+

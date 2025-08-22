@@ -1,0 +1,49 @@
+JS: selfPreparation
+Double click the variable or element to select in VsCode : 
+	Click on same repeated variable to select multiple elements and edit at once
+
+Control statements : (if one line execution no need of "{ }" simplify can write without any other : '"" etc..,)
+	Conditional Statements : If if-else switch 
+	Looping Statements     : for while do-while 
+
+DOM : Document Object Model : 
+=> Not the part of the JavaScript
+	JavaScript is part of ECMA Script 
+=> DOM methods and Properties are acutally the properties of the WebAPI's 
+	and are actually used to interact with JavaScript 
+
+const variableName = document.DOM(anyKindOfSelector)('SelectorName');
+	=> To assign the selector to a variable so can easily handle the code 
+
+
+
+Math.radom() = to get random number value 
+math.trunc() = to get the integer part of the number even if it is the decimal 
+
+querySelector('') => is used to select the elemnt using the id or class || to select only the first element of that type
+querySelectorAll('') => is used to select the elemnt using the id or class || to select all the first element of that type
+	if id we use #idName in the single Quote 
+	if class we use .className in the single Quote.
+	if tag  we use tag Name 
+
+
+
+textContent => to view the content from the Element on the console or to access the content from the html 
+value  => if we are trying to manipulate the input tag 
+= '' to manipulate the data/content from the js into the html 
+style is used to manipulate the css of the page (We can Manipulate every style property using this followed by a .property ) 
+
+ 
+
+addEventListener('',function) =>to add functionalities to the button
+		('') type of the functionality 
+		we can pass the functions as the arguments to another function or the event 
+instead we can pass the variable value to which a function is assigned 
+		=> const x = function (){
+					  ---------
+					 }
+
+
+We can also add a DOM manipulation in a Function 
+	also assign to a variable 
+

@@ -1,0 +1,37 @@
+								String: 
+✨ Creation
+	let str = "Hello";
+	let str = 'World';
+	let str = \Hello, ${name}!`;` – Template literals for interpolation.
+🔍 Access and Search
+	str.length – Get the length of the string.
+	str[index] – Access character at a specific index.
+	str.charAt(index) – Get character at index.
+	str.charCodeAt(index) – Get Unicode of character.
+	str.includes(substring) – Check if substring exists.
+	str.indexOf(substring) – First occurrence index.
+	str.lastIndexOf(substring) – Last occurrence index.
+	str.startsWith(substring) / str.endsWith(substring) – Check beginning or end.
+🔄 Manipulation
+	str.toUpperCase() / str.toLowerCase() – Change case.
+	str.trim() – Remove whitespace from both ends.
+	str.trimStart() / str.trimEnd() – Remove whitespace from one end.
+	str.replace(search, replacement) – Replace part of the string.
+	str.replaceAll(search, replacement) – Replace all occurrences.
+	str.slice(start, end) – Extract part of the string.
+	str.substring(start, end) – Similar to slice, but no negative indexes.
+	str.substr(start, length) – Deprecated but still used in some cases.
+🔗 Combining and Splitting
+	str.concat(otherStr) – Combine strings.
+	str + otherStr – Concatenate using +.
+	str.split(delimiter) – Split into an array.
+🔁 Iteration
+	for (let char of str) – Loop through characters.
+	Array.from(str) – Convert string to array of characters.
+🧪 Pattern Matching
+	str.match(regex) – Match using regular expressions.
+	str.search(regex) – Search using regex.
+	str.matchAll(regex) – Get all matches (returns iterator).
+🧱 Encoding and Decoding
+	encodeURI(str) / decodeURI(str)
+	encodeURIComponent(str) / decodeURIComponent(str)

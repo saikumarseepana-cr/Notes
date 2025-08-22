@@ -1,0 +1,39 @@
+								 Array: 
+✨ Creation
+	let arr = [1, 2, 3]; – Create an array with elements.
+	let arr = new Array(5); – Create an array with a specific length.
+		Array.from() – Create an array from iterable or array-like objects.
+		Array.of() – Create an array from a set of arguments.
+🔍 Access and Search
+	arr[index] – Access element at a specific index.
+	arr.includes(value) – Check if a value exists
+	arr.indexOf(value) – Get the first index of a value.
+	arr.lastIndexOf(value) – Get the last index of a value.
+	arr.find(callback) – Find the first element that matches a condition.
+	arr.findIndex(callback) – Find the index of the first matching element.
+🔄 Iteration
+	for, for...of, forEach() – Loop through elements.
+	map() – Transform each element and return a new array.
+	filter() – Return a new array with elements that match a condition.
+	reduce() – Reduce the array to a single value.
+	some() / every() – Test whether some or all elements match a condition.
+➕➖ Add/Remove Elements
+	push() – Add to the end.
+	pop() – Remove from the end.
+	unshift() – Add to the beginning.
+	shift() – Remove from the beginning.
+	splice(start, deleteCount, ...items) – Add/remove at any position.
+	slice(start, end) – Return a shallow copy of a portion of the array.
+🔄 Reordering
+	sort() – Sort elements (can use a compare function).
+	reverse() – Reverse the order of elements.
+🔗 Combining and Copying
+	concat() – Merge arrays.
+	join(separator) – Join elements into a string.
+	flat(depth) – Flatten nested arrays.
+	flatMap(callback) – Map and flatten in one step.
+	copyWithin(target, start, end) – Copy part of the array to another location.
+	fill(value, start, end) – Fill elements with a static value.
+🧪 Type and Structure
+	Array.isArray(obj) – Check if a variable is an array.
+	arr.length – Get or set the number of elements.

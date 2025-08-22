@@ -1,0 +1,162 @@
+Introduction to CSS :  Element = Tag = Selector 
+CSS : Cascading Style Sheets 
+ 
+It separates the presentation from the content, Webpage - more accessible and Maintainable
+-> Improved web design, Faster Load Times, Easy Maintainance 
+
+W3 Standard ( "World Wide Web Consortium) - InterOperability and Consistent rendering across Platforms 
+GuideLines  :
+	Modularity , Forward and BackWard Compatibility , Accessibility 
+
+Syntax: 
+Element/ Selector  {
+	Property : value ;
+	}
+
+Selector : * universal , . class , # id , > child , + AdjSibling , ~ GenSibling (all Sib) , :  PseudoClass , :Not(selector) ,"_" Descendent
+ 
+PseudoClass Selectors : 
+hover : Properties when hovered 
+focus : when clicked ( interaction ) 
+nth-child  : Targets based on the position 
+
+PseudoElement Selectors : 
+first-line : Styles the first line of the element 
+before 	: Adds content before the element 
+After 	: Adds content after the element 
+first-letter : First letter of the element /Tag
+
+PseudoLink Classes : 
+a:link  
+{
+  /* unvisited link */ 
+}
+a:visited {
+  /* visited link */
+}
+a:hover {
+  /* mouse over link */
+}
+a:active {
+  /* selected link */
+}
+a:focus {
+  /* when Interacted */
+}
+a:lang(fr) {
+  /* if tag contain lang="fr" */
+}
+
+element.className - selects the element having the className 
+element#id        - selects the element having the id 
+
+Absolute Length Units ( for def ) : px cm mm in pt pc 
+Relative Length Units ( for RWD ) : % fr em rem vw vh vmin vmax ex ch 
+
+WCAG : P-Perceivable  O:Operable U:Understandable R:Robust 
+
+CSS BOX Model : 
+content + padding + margin + border = ( Height/Width) 
+
+Box Sizing : 
+border-box : total is fixed with mentioned height and width 
+without    : Total = Total + content + padding + margin + border
+
+LayOut :
+Flow Layout -1D : block inline inline-block 
+Flexbox	    -1D 
+CSS Grid    -2D : 
+
+Inline : arranges in horizontal direction --> & Doesnt take vertical-box-model Properties ( padding & margin ) 
+Block  : arranges in Vertical Direction ||  & Takes the box-model Properties
+Inline-Block : Inherites the properties( inline, block ) - will be Horizontally placed & also takes the box-model properties.
+ 
+Display : 
+	Flex : 1D distribute Space, Align Items, Order Content, Responsive Components
+
+	: flex | inline-flex
+	flex-direction :  row | row-reverse | column | column-reverse 
+	flex-wrap : no-wrap | wrap | wrap-reverse 
+	justify-content : flex-start | flex-end | center | space-between | space-around | space-evenly 
+	align-items : flex-start | flex-end | center | baseline | stretch 
+	align-content : flex-start | flex-end | center | space-between | Space-around | stretch 
+	(MultiLine flex) : gap | row-gap | column-gap
+	
+
+	Grid : 2D  repeat(autofit,minmax(sizeOfEach, fraction) 
+
+	Container Properties : 
+==>	: grid | inline-grid 
+	grid-template-columns : tracklist | listnames | auto-flow | dense
+	grid-template-rows : tracklist | listnames | auto-flow | dense
+	grid-template-areas : noofCells * name of cells 
+	grid-gap | gap     ==> for spacing between grid 
+	grid-row-gap | row-gap
+	grid-column-gap |column-gap  
+	justify-items : start | end | center | stretch ( align items in row )
+	align-items : start | end | center | stretch  ( align items in column ) 
+	justify-content : start | end | center | space-between | space-around | space-evenly ( aligns grid iteself along the row aixs ) 
+	align-content : start | end | center | space-between | space-around | space-evenly
+	grid-auto-columns : tracksize  : if rows or columns overloaded the new R/C takes this value as width  --	
+	grid-auto-rows : tracksize The extra one fills entire row or column 				      __
+	grid-auto-flow : row | dense 
+	
+	Item Properties : 
+==> 	grid-column-start - grid-column-end : ShortHand ( grid-column : colNo | spanSize ) 
+	grid-row-start - grid-row-end : ShortHand ( grid-row : rowNo | spanSize ) 
+	grid-area : shortHand for combined column and row : rowNo / colNo / spanRow / spanCol
+	justify-self : --row 
+	align-self   : --column
+		start : aligns the item to the left of the cell 
+		end   : aligns the item to the right of the cell
+		center: center the item horizontally
+		stretch : Stretches the items to fill the entire width of the cell
+
+Coloring : 
+	HSL : Hue Saturation Lightness
+	hex , english , RGB
+
+MediaQueries : RWD ( Responsive Web Design ) 
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

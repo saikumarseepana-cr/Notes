@@ -1,0 +1,56 @@
+						DOM:🌐 Document Object Model :
+KeyBoardEvents: 
+
+document.addEventListener('keydown',func(e){
+	console.log(e.key) 
+	
+	if(e.key === 'ourKey') {
+		requiredAction	
+		}
+});
+
+element.classList.contains('')
+✨createElement :
+	document.createElement("div");       // Create a new element
+	document.createTextNode("Hello");    // Create a text node
+🔍 Access and Search
+	document.getElementById("id");               // Access by ID
+	document.getElementsByClassName("class");    // Access by class
+	document.getElementsByTagName("tag");        // Access by tag
+	document.querySelector("selector");          // First match
+	document.querySelectorAll("selector");       // All matches
+🔄 Manipulation
+	element.textContent = "New text";            // Change text
+	element.innerHTML = "<b>Bold</b>";           // Change HTML
+	element.setAttribute("class", "new-class");  // Set attribute
+	element.removeAttribute("disabled");         // Remove attribute
+🎨 Styling
+	element.style.color = "blue";                // Inline style
+	element.classList.add("active");             // Add class
+	element.classList.remove("hidden"," ");      // Remove class => if want to remove multiple classes we can separate by comma ','
+	element.classList.toggle("dark-mode");       // Toggle class
+➕ Adding Elements
+	let newDiv = document.createElement("div");
+	document.body.appendChild(newDiv);           // Add to body
+	parent.appendChild(child);                   // Add child
+	parent.insertBefore(newChild, reference);    // Insert before another element
+❌ Removing Elements
+	element.remove();                            // Remove element
+	parent.removeChild(child);                   // Remove child from parent
+🔁 Event Handling
+	element.addEventListener("click", () => {
+  		alert("Clicked!");
+		Statements that should be executed when the element is clicked 
+		});
+	element.removeEventListener("click", handler);  // Remove event
+🔍 Traversing
+	element.parentNode;                          // Get parent
+	element.children;                            // Get children
+	element.firstChild;                          // First child
+	element.nextSibling;                         // Next sibling
+🧪 DOM Properties
+	element.id;                                  // Get ID
+	element.className;                           // Get class name
+	element.tagName;                             // Get tag name
+	element.value;                               // Get value (for inputs)
+

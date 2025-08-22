@@ -1,0 +1,55 @@
+Introduction to HTML : 
+HTML : Hyper Text Markup Language 
+-> Foundation of web 
+	Skeleton of the webpage
+	CSS & Js used to make responsive(functional) and Style the web page 
+
+HTML5  :
+	Semantic ELements 
+	Multimedia Elements
+	CanvasAPI 
+	SVG Support
+	GeoLocation API . etc., 
+
+New Form Attributes:
+	• placeholder: Provides a hint to the user.
+	• required: Makes a field mandatory.
+	• autofocus: Automatically focuses on an element when the page loads.
+	• pattern: Specifies a regular expression for input validation.
+	• autocomplete: Suggests values based on user's past input.
+
+New Form Elements:
+	• <datalist>: Provides a predefined list of options for an <input> element.
+	• <output>: Used to display the result of a calculation
+
+HTML 
+-> to display content and structure web pages for the browsers
+-> have default tags 
+-> Less flexible 
+-> No case sensitivity
+-> Forgiving minor errors 
+-> Some tags dont require the closing tags 
+-> Focuses on how data is presented 
+-> Not designed for data interchange 
+-> easier to learn and use for basic web page creation 
+
+XML 
+-> To store transport and describe the data 
+-> can make your own tags 
+-> Highly Flexible 
+-> Case sensitive is diff from data to data
+-> Strictly checks for every minute error 
+-> All tags must have Closing tags 
+-> Focuses on structre and meaning of the data
+-> best one for data interchange b/w systems or applications
+-> Complex to learn due to schemas and handle data structures 
+
+DOM : Document Object model :  Tree stucture of the webPage 
+
+ARIA  : Accessible Rich Internet Applications 		
+	-> LLms and Assistant technologies 
+	-> KeyBoard Navigation 
+	
+
+
+

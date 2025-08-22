@@ -1,0 +1,84 @@
+### [GIT](file:///c%3A/Users/2431147/OneDrive%20-%20Cognizant/Documents/Notes/GIT)
+
+How to install Git using VS Code terminal:
+
+1. **Open VS Code.**
+2. **Open the terminal in VS Code:**  
+   - Go to `View > Terminal` or press <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick).
+3. **Install Git based on your operating system:**
+   - **Windows:**  
+     - You cannot install Git directly from the terminal.  
+     - Download the installer from [https://git-scm.com/downloads](https://git-scm.com/downloads) and run it.
+   - **macOS:**  
+     - In the terminal, run:  
+       ```
+       brew install git
+       ```
+       (Requires [Homebrew](https://brew.sh/) to be installed.)
+   - **Linux (Debian/Ubuntu):**  
+     - In the terminal, run:  
+       ```
+       sudo apt update
+       sudo apt install git
+       ```
+   - **Linux (Fedora):**  
+     - In the terminal, run:  
+       ```
+       sudo dnf install git
+       ```
+4. **Verify installation:**  
+   - In the terminal, run:  
+     ```
+     git --version
+     ```
+   - You should see the installed Git version.
+
+5. **Configure Git (after installation):**
+   - Set your username and email:
+     ```
+     git config --global user.name "Your Name"
+     git config --global user.email "your.email@example.com"
+     ```
+
+---
+
+How to upload notes to Git using VS Code:
+
+1. Install Git:
+   - Download and install from https://git-scm.com/downloads
+
+2. Install VS Code:
+   - Download and install from https://code.visualstudio.com/
+
+3. Open your notes folder in VS Code.
+
+4. **Install and set up Git using VS Code terminal:**
+   - Open the terminal in VS Code (View > Terminal).
+   - On Windows, you can check if Git is installed by running:
+     ```
+     git --version
+     ```
+   - If Git is not installed, download and install it from the link above, then restart VS Code.
+   - After installation, configure your Git username and email:
+     ```
+     git config --global user.name "Your Name"
+     git config --global user.email "your.email@example.com"
+     ```
+
+5. Initialize a Git repository:
+   - Open the terminal in VS Code (View > Terminal).
+   - Run: git init
+
+6. Stage and commit your notes:
+   - Use the Source Control panel (left sidebar) or run:
+     git add .
+     git commit -m "Initial commit"
+
+7. (Optional) Connect to a remote repository (e.g., GitHub):
+   - Create a new repo on GitHub.
+   - Run:
+     git remote add origin <your-repo-url>
+     git push -u origin master
+
+8. You can also use the Source Control panel in VS Code for all Git operations.
+
